@@ -399,4 +399,4 @@ dependencies:
       - websocket-client==1.7.0
       - widgetsnbextension==4.0.9
       - zmq==0.0.0
-prefix: /home/sampurna/anaconda3/envs/prolif
+
