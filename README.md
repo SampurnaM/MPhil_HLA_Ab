@@ -1,5 +1,6 @@
 ### Introduction
 - Welcome! This repository contains code used for analysis of HLA-Ab crystal structures for Sampurna Mukherjee (@SampurnaM) 's MPhil by thesis, titled "Computational Analysis of HLA-Ab interactions in the context of solid organ transplantation", submitted to Department of Biological Sciences, University of Cambridge in 2024.
+- Please use the provided yaml file: https://github.com/SampurnaM/MPhil_HLA_Ab/blob/main/sampurna_mphil_env.yml, to create Conda environment and have dependencies installed for running code in this repo.
 - The code is organised in two Jupyter notebooks :
   1) The first Jupyter Notebook: Follows Objective 1 of the thesis - finding epitope residues for HLA-A*1101- 2e3 complex (PDB ID: 6ID4,https://www.ebi.ac.uk/pdbe/entry/pdb/6id4 ) using epitope features: Presence in antibody-antigen binding interface(distance), solvent accessibility and presence of non-covalent interactions (NCIs) computed as Interaction Fingerprints.
   The module sampurna_thesis ( https://github.com/SampurnaM/MPhil_HLA_Ab/blob/main/sampurna_thesis.py) was written for this analysis and is used in the notebook for computing epitope features  
